@@ -15,37 +15,4 @@
 .colors .color8{background:#cf2b7e;}
 .colors .color9{background:#33373a;}
 .colors .color10{background:#dde2e5;}
-.colors .color11{background: #517fa4 RGB(81, 127, 164);}
 
-@keyframes bounce {
-    0%, 20%, 60%, 100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    40% {
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
-    }
-    
-    80% {
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-    }
-}
-
-.fa fa-facebook {
-        cursor: pointer;
-        transition: all 400ms ease;
-        transition: box-shadow 0.3 ease, transform 0.3s ease;
-}
-.fa fa-facebook:active {
-    box-shadow: 0 0 0 0 #930, inset 4px 4px 4px #930;
-    transform: translate(3px, 3px);
-}
-.fa fa-facebook:hover{
-    animation:bounce 1s;
-}
-.fa fa-facebook:hover:before 
-{ 
-            width: 100%;
-}
