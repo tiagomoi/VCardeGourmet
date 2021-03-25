@@ -1,0 +1,3 @@
+[submodule "beckend"]
+	path = beckend
+	url = https://github.com/tiagomoi/VCardeGourmet
